@@ -1,4 +1,4 @@
-name: lory
+name: Rust
 
 on:
   push:
