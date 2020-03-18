@@ -1,6 +1,6 @@
 [package]
 name = "reqwest-oauth"
-version = "2020.3.16"
+version = "0.10.4"
 authors = ["Bayu Aldi Yansyah <bayualdiyansyah@gmail.com>"]
 edition = "2018"
 license = "Apache-2.0"
@@ -14,4 +14,4 @@ categories = ["api-bindings", "web-programming"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-reqwest = { version = "0.10", features = ["json"] }
+reqwest = { version = "0.10.4", features = ["json"] }
