@@ -1,0 +1,17 @@
+[package]
+name = "reqwest-oauth"
+version = "2020.3.16"
+authors = ["Bayu Aldi Yansyah <bayualdiyansyah@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+description = "OAuth support for Rust reqwest library"
+documentation = "https://docs.rs/reqwest-oauth/"
+homepage = "https://github.com/pyk/reqwest-oauth"
+repository = "https://github.com/pyk/reqwest-oauth"
+readme = "README.md"
+categories = ["api-bindings", "web-programming"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.10", features = ["json"] }
